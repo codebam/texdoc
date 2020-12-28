@@ -1,8 +1,8 @@
 #!/bin/sh
 
 if [ -z "$1" ]; then
-    printf "./build.sh file.ext\n"
-    printf "error: specify the document you want to build into tex\n"
+    printf "texdoc file.ext\n"
+    printf "error: specify the document you want to make into a pdf\n"
     exit 1
 fi
 
